@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles for Trade Juggernaut */
+body {
+  @apply bg-juggernaut-dark text-juggernaut-text-light font-sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional: Basic reset for links */
+a {
+  @apply text-juggernaut-accent-1 hover:text-juggernaut-accent-2 transition-colors duration-300;
+}
+
+/* Optional: Focus styles for accessibility */
+*:focus {
+  @apply outline-none ring-2 ring-juggernaut-accent-1 ring-offset-2 ring-offset-juggernaut-dark;
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1A1A1A; /* juggernaut-medium */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #00F0FF; /* juggernaut-accent-1 */
+  border-radius: 10px;
+  border: 2px solid #1A1A1A; /* juggernaut-medium */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #FF00A0; /* juggernaut-accent-2 */
+}
