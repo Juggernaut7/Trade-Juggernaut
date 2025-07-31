@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/layout/Navbar';
 import MarketList from '../components/dashboard/MarketList';
 import AIChatbot from '../components/dashboard/AIChatbot'; // Import the AI Chatbot
+import Footer from '../components/layout/Footer';
 
 function DashboardPage() {
   return (
@@ -26,6 +27,7 @@ function DashboardPage() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

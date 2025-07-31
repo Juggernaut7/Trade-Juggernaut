@@ -3,7 +3,7 @@ import HeroSection from '../components/home/HeroSection';
 import FeaturesSection from '../components/home/FeaturesSection'; // NEW
 import HowItWorksSection from '../components/home/HowItWorksSection'; // NEW
 import CallToActionSection from '../components/home/CallToActionSection'; // NEW
-// import Footer from '../components/layout/Footer'; // Add this when you create it
+import Footer from '../components/layout/Footer';
 
 function HomePage() {
   return (
@@ -15,7 +15,7 @@ function HomePage() {
         <HowItWorksSection /> {/* Added */}
         <CallToActionSection /> {/* Added */}
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
